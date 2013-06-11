@@ -30,6 +30,10 @@ group 'test' do
 end
 
 gem 'rb-readline', '~> 0.4.2'
+
+gem 'mintkit'
+
+gem 'devise'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
