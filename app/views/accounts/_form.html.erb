@@ -17,7 +17,7 @@
   </div>
   <div class="field">
     <%= f.label :accounttype %><br />
-    <%= f.text_field :accounttype %>
+    <%= collection_select(:account,:accounttype_id,Accounttype.all,:id,:name)%>
   </div>
   <div class="field">
     <%= f.label :balance %><br />
